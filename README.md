@@ -31,14 +31,8 @@ Here are some ideas to get you started:
   <a href="https://www.linkedin.com/in/marcos-henrique-corrêa-618392209/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
 </div>
 
-<!-- <div>
-	<a href="https://github.com/marck0101">
-	<img height="180em" src="https://github-readme-status.vercel.app/api?username=marck0101&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-	<img height="180em" src="https://github-readme-status.vercel.app/api/top-langs/?username=marck0101&layout=compact&langs_count=16&theme=dracula"/>
-<div> -->
+<div align="center">
 
-<!-- <div> -->
-
-![Snake animation](https://marck0101/marck0101/blob/output/github-contributions-grid-snake.svg)
-
-<!-- </div> -->
+  ![Snake animation](https://github.com/danielbped/danielbped/blob/output/github-contribution-grid-snake.svg)
+  
+</div>
