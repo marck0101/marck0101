@@ -1,8 +1,10 @@
 ### Olá!! Eu sou o Marcos Henrique 👋
 
-<div align="center">
+<div align="left">
   <a href="https://github.com/marck0101">
+    <!-- 
     <img height="150em" src="https://github-readme-stats.vercel.app/api?username=marck0101&count_private=true&include_all_commits=true&show_icons=true&theme=dracula&hide_border=false&show_owner=true"/>
+    -->
     <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=marck0101&theme=dracula&hide_border=false&&layout=compact"/>
   </a>
 </div>
@@ -20,7 +22,7 @@
   <img align="center" alt="Marcos-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img align="center" alt="Marcos-LINUX" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg">
  <img align="center" alt="Marcos-GIT" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
-   <img align="center" alt="Marcos-GITHUB" height="35" width="35" src="/assets/GitHub.png">
+ <!--  <img align="center" alt="Marcos-GITHUB" height="35" width="35" src="/assets/GitHub.png">-->
 </div>
 
 <br/>
