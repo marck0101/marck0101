@@ -1,4 +1,5 @@
 # Olá!! Eu sou o Marcos Henrique 👋
+
 <div align="left">
   <a href="https://github.com/marck0101">
      <!-- 
@@ -46,16 +47,18 @@
 
 <div align="center">
 
-  ![Snake animation](https://github.com/danielbped/danielbped/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/danielbped/danielbped/blob/output/github-contribution-grid-snake.svg)
 
 </div>
 
 # Portfólio em Desenvolvimento
+
 ## [Meu Portfólio](https://marck0101.com.br)
+
 ![image](https://github.com/marck0101/marck0101/assets/102032089/ce6ba267-0e35-4c3a-bf96-89ac93198d1a)
 
-
 # Wiki para dúvidas rápidas
+
 # INFO DEVELOPER
 
 | ONDE PESQUISAR       | LINK                               |
@@ -66,6 +69,18 @@
 | Cursos/ Youtube      | [Youtube](https://www.youtube.com) |
 
 ## MONGO
+
+### Inicia o mongo
+
+```Copiar
+ sudo systemctl start mongod
+```
+
+### Acessa o mongo
+
+```Copiar
+mongosh
+```
 
 ### Criar Database
 
@@ -205,8 +220,6 @@ Enter
 
 > <b>Busca:</b> No modo Normal, use `/` seguido do termo de busca e `Enter` para encontrar texto no arquivo.
 
-
-
  <!--
 # Portfólio em Desenvolvimento
 
@@ -280,6 +293,3 @@ A proposta desse projeto é criar um sistema de chamado simples, sendo possível
  - Trabalhar com login e logout do sistema
  - Manter a sessão conectada quando usuário acessar
  -->
-
-
- 
