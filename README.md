@@ -118,10 +118,11 @@ Os usuários não terão acesso as notas de outros usuários.
  - UseState
  - UseEffect
  - Auth
- - Conexão com banco externo, o Firebase -->
+ - Conexão com banco externo, o Firebase 
 
 A proposta desse projeto é criar um sistema de chamado simples, sendo possível:
  - Cadastrar de usuários
  - Fazer a abertura de chamado, verificar andamento e encerramento dos chamados
  - Trabalhar com login e logout do sistema
  - Manter a sessão conectada quando usuário acessar
+ -->
