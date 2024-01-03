@@ -55,7 +55,7 @@
 ![image](https://github.com/marck0101/marck0101/assets/102032089/ce6ba267-0e35-4c3a-bf96-89ac93198d1a)
 
 
-# wiki Para dúvidas rápidas
+# Wiki para dúvidas rápidas
 # INFO DEVELOPER
 
 | ONDE PESQUISAR       | LINK                               |
