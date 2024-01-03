@@ -51,7 +51,159 @@
 </div>
 
 # Portfólio em Desenvolvimento
-[Meu Portfólio](https://marck0101.com.br)
+## [Meu Portfólio](https://marck0101.com.br)
+
+# wiki Para dúvidas rápidas
+# INFO DEVELOPER
+
+| ONDE PESQUISAR       | LINK                               |
+| -------------------- | ---------------------------------- |
+| DOCUMENTAÇÃO OFICIAL | Pesquisar sobre componente         |
+| NPM                  | [NPM](https://www.npmjs.com)       |
+| GITHUG               | [GITHUG](https://github.com)       |
+| Cursos/ Youtube      | [Youtube](https://www.youtube.com) |
+
+## MONGO
+
+### Criar Database
+
+```Copiar
+use NomeDoBanco
+```
+
+### Adicionar collection manualmente
+
+```Copiar
+mongo
+use NomeDoBanco
+db.createCollection("NomeDaCollection")
+```
+
+### Como fazer filtros
+
+```Copiar
+use NomeDoBanco
+db.NomeDaCollection.find({campo: valor})
+```
+
+### como excluir apenas um item dentro da collection
+
+```Copiar
+use NomeDoBanco
+db.NomeDaCollection.deleteOne({campo: valor})
+```
+
+### Como deletar uma collection
+
+```Copiar
+mongo
+use NomeDoBanco
+db.NomeDaCollection.drop()
+```
+
+### Como deletar uma database
+
+```Copiar
+mongo
+use NomeDoBanco
+db.dropDatabase()
+```
+
+## LINUX
+
+### Listar diretorios
+
+```Copiar
+ls
+```
+
+### Criar pasta
+
+```Copiar
+mkdir NomeDaPasta
+```
+
+### Recortar itens de uma pasta e colar em outra
+
+```Copiar
+mv Origem/* Destino/
+```
+
+### Desbloquear arquivos
+
+```
+chmod -777 NomeDoArquivo
+```
+
+<p>A permissão 777 concede permissões de leitura, gravação e execução para todos (proprietário, grupo e outros), o que pode ser extremamente arriscado, especialmente em ambientes de produção.</p>
+
+```
+chmod 644 NomeDoArquivo
+```
+
+<p>
+Sempre é recomendável entender as implicações de segurança ao conceder permissões e garantir que você está concedendo apenas as permissões necessárias para usuários, grupos e outros.
+</p>
+
+```Copiar
+chmod +w NomeDoArquivo
+```
+
+<p>
+Se você ainda precisa usar a notação octal, sugeriria algo como <b>`chmod 644`</b> para conceder permissões de leitura e escrita ao proprietário e apenas permissões de leitura aos outros.
+</p>
+
+## LINUX VIM
+
+### Entrar no Modo Inserção, EDIÇÃO
+
+```Copiar
+i
+```
+
+### Salvar
+
+```Copiar
+Esc
+:w
+Enter
+```
+
+### Sair
+
+```Copiar
+Esc
+:q
+Enter
+```
+
+### Salvar e Sair
+
+```Copiar
+Esc
+:wq
+Enter
+```
+
+### Sair sem Salvar
+
+```Copiar
+Esc
+:q!
+Enter
+```
+
+### Dicas
+
+> <b>Navegação:</b> No modo Normal, use as teclas de seta ou `h`, `j`, `k`, `l` para mover o cursor.
+
+> Desfazer: No modo Normal, pressione `u` para desfazer a última ação.
+
+> <b>Copiar e Colar:</b> No modo Normal, para copiar e colar, use `yy` para copiar uma linha e `p` para colar.
+
+> <b>Busca:</b> No modo Normal, use `/` seguido do termo de busca e `Enter` para encontrar texto no arquivo.
+
+
 
  <!--
 # Portfólio em Desenvolvimento
@@ -126,3 +278,6 @@ A proposta desse projeto é criar um sistema de chamado simples, sendo possível
  - Trabalhar com login e logout do sistema
  - Manter a sessão conectada quando usuário acessar
  -->
+
+
+ 
