@@ -214,7 +214,7 @@ Enter
 
 > <b>Navegação:</b> No modo Normal, use as teclas de seta ou `h`, `j`, `k`, `l` para mover o cursor.
 
-> Desfazer: No modo Normal, pressione `u` para desfazer a última ação.
+> <b>Desfazer:</b> No modo Normal, pressione `u` para desfazer a última ação.
 
 > <b>Copiar e Colar:</b> No modo Normal, para copiar e colar, use `yy` para copiar uma linha e `p` para colar.
 
