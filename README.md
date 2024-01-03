@@ -61,12 +61,12 @@
 
 # INFO DEVELOPER
 
-| ONDE PESQUISAR       | LINK                               |
-| -------------------- | ---------------------------------- |
-| DOCUMENTAÇÃO OFICIAL | Pesquisar sobre componente         |
-| NPM                  | [NPM](https://www.npmjs.com)       |
-| GITHUG               | [GITHUG](https://github.com)       |
-| Cursos/ Youtube      | [Youtube](https://www.youtube.com) |
+| ONDE PESQUISAR               | LINK                               |
+| ---------------------------- | ---------------------------------- |
+| PESQUISAR SOBRE O COMPONENTE | DOCUMENTAÇÃO OFICIAL               |
+| NPM                          | [NPM](https://www.npmjs.com)       |
+| GITHUG                       | [GITHUG](https://github.com)       |
+| Cursos/ Youtube              | [Youtube](https://www.youtube.com) |
 
 ## MONGO
 
