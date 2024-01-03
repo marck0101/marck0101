@@ -70,13 +70,13 @@
 
 ## MONGO
 
-### Inicia o mongo
+### Iniciar o mongo
 
 ```Copiar
  sudo systemctl start mongod
 ```
 
-### Acessa o mongo
+### Acessar o mongo
 
 ```Copiar
 mongosh
@@ -96,21 +96,21 @@ use NomeDoBanco
 db.createCollection("NomeDaCollection")
 ```
 
-### Como fazer filtros
+### Filtrar
 
 ```Copiar
 use NomeDoBanco
 db.NomeDaCollection.find({campo: valor})
 ```
 
-### como excluir apenas um item dentro da collection
+### Excluir apenas um item dentro da collection
 
 ```Copiar
 use NomeDoBanco
 db.NomeDaCollection.deleteOne({campo: valor})
 ```
 
-### Como deletar uma collection
+### Deletar Collection
 
 ```Copiar
 mongo
@@ -118,7 +118,7 @@ use NomeDoBanco
 db.NomeDaCollection.drop()
 ```
 
-### Como deletar uma database
+### Deletar Database
 
 ```Copiar
 mongo
