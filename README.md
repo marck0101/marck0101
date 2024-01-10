@@ -68,153 +68,257 @@
 | GITHUG                       | [GITHUG](https://github.com)       |
 | Cursos/ Youtube              | [Youtube](https://www.youtube.com) |
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>
-      .tab {
-        overflow: hidden;
-        border: 1px solid #ccc;
-        background-color: #f1f1f1;
-      }
+## MONGO
 
-      .tab button {
-        background-color: inherit;
-        float: left;
-        border: none;
-        outline: none;
-        cursor: pointer;
-        padding: 14px 16px;
-        transition: 0.3s;
-        font-size: 17px;
-      }
+### Iniciar o mongo
 
-      .tab button:hover {
-        background-color: #ddd;
-      }
+```Copiar
+ sudo systemctl start mongod
+```
 
-      .tab button.active {
-        background-color: #ccc;
-      }
+### Acessar o mongo
 
-      .tabcontent {
-        display: none;
-        padding: 6px 12px;
-        border: 1px solid #ccc;
-        border-top: none;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="tab">
-      <button class="tablinks" onclick="openTab(event, 'NoSQL')">NoSQL</button>
-      <button class="tablinks" onclick="openTab(event, 'Relacional')">
-        Relacional
-      </button>
-      <button class="tablinks" onclick="openTab(event, 'Linux')">Linux</button>
-    </div>
+```Copiar
+mongosh
+```
 
-    <div id="NoSQL" class="tabcontent">
-      <h3>Banco NoSQL</h3>
-      <!-- Conteúdo do banco NoSQL -->
-      ## MONGO ### Iniciar o mongo ```Copiar sudo systemctl start mongod ``` ###
-      Acessar o mongo ```Copiar mongosh ``` ### Criar Database ```Copiar use
-      NomeDoBanco ``` ### Adicionar collection manualmente ```Copiar mongo use
-      NomeDoBanco db.createCollection("NomeDaCollection") ``` ```Copiar
-      db.NomeDaCollection.insertOne({ "campo1": "valor1", "campo2": "valor2", //
-      ... outros campos e valores ... }) ``` ### Filtrar ```Copiar use
-      NomeDoBanco db.NomeDaCollection.find({campo: valor}) ``` ### Excluir
-      apenas um item dentro da collection ```Copiar use NomeDoBanco
-      db.NomeDaCollection.deleteOne({campo: valor}) ``` ### Deletar Collection
-      ```Copiar mongo use NomeDoBanco db.NomeDaCollection.drop() ``` ### Deletar
-      Database ```Copiar mongo use NomeDoBanco db.dropDatabase() ```
-    </div>
+### Criar Database
 
-    <div id="Relacional" class="tabcontent">
-      <h3>Banco Relacional</h3>
-      <!-- Conteúdo do banco relacional -->
-      # Operações Básicas no PostgreSQL ## Acessar banco ``` sudo -u postgres
-      psql ``` ## Listar Database ``` \l ``` ## Limpar console ``` Pressione
-      Ctrl + L. ``` ## Criar um Banco de Dados ```sql CREATE DATABASE
-      nome_do_banco; ``` ## Conectar-se a um Banco de Dados ```sql \c
-      nome_do_banco; ``` ## Criar uma Tabela ```sql CREATE TABLE nome_da_tabela
-      ( id SERIAL PRIMARY KEY, nome VARCHAR(100), idade INT ); ``` ## Inserir
-      Dados em uma Tabela ```sql INSERT INTO nome_da_tabela (nome, idade) VALUES
-      ('John Doe', 25); ``` ## Buscar Todos os Registros de uma Tabela ```sql
-      SELECT * FROM nome_da_tabela; ``` ## Buscar Registros com Condição ```sql
-      SELECT * FROM nome_da_tabela WHERE idade > 21; ``` ## Atualizar Dados em
-      uma Tabela ```sql UPDATE nome_da_tabela SET idade = 30 WHERE nome = 'John
-      Doe'; ``` ## Apagar Dados de uma Tabela ```sql DELETE FROM nome_da_tabela
-      WHERE nome = 'John Doe'; ``` ## Apagar uma Tabela ```sql DROP TABLE
-      nome_da_tabela; ``` ## Apagar um Banco de Dados ```sql DROP DATABASE
-      nome_do_banco; ``` Estas são operações básicas e é importante entender o
-      impacto de cada uma delas antes de executá-las em um ambiente de produção.
-      Lembre-se sempre de fazer backups adequados antes de realizar operações
-      que possam causar perda de dados. Caso tenha mais dúvidas ou precise de
-      informações adicionais, sinta-se à vontade para perguntar!
-    </div>
+```Copiar
+use NomeDoBanco
+```
 
-    <div id="Linux" class="tabcontent">
-      <h3>Linux</h3>
-      <!-- Conteúdo do Linux -->
-      ## LINUX ### Listar diretorios ```Copiar ls ``` ### Criar pasta ```Copiar
-      mkdir NomeDaPasta ``` ### Recortar itens de uma pasta e colar em outra
-      ```Copiar mv Origem/* Destino/ ``` ### Desbloquear arquivos ``` chmod -777
-      NomeDoArquivo ```
+### Adicionar collection manualmente
 
-      <p>
-        A permissão 777 concede permissões de leitura, gravação e execução para
-        todos (proprietário, grupo e outros), o que pode ser extremamente
-        arriscado, especialmente em ambientes de produção.
-      </p>
+```Copiar
+mongo
+use NomeDoBanco
+db.createCollection("NomeDaCollection")
+```
 
-      ``` chmod 644 NomeDoArquivo ```
+```Copiar
+db.NomeDaCollection.insertOne({
+  "campo1": "valor1",
+  "campo2": "valor2",
+  // ... outros campos e valores ...
+})
+```
 
-      <p>
-        Sempre é recomendável entender as implicações de segurança ao conceder
-        permissões e garantir que você está concedendo apenas as permissões
-        necessárias para usuários, grupos e outros.
-      </p>
+### Filtrar
 
-      ```Copiar chmod +w NomeDoArquivo ```
+```Copiar
+use NomeDoBanco
+db.NomeDaCollection.find({campo: valor})
+```
 
-      <p>
-        Se você ainda precisa usar a notação octal, sugeriria algo como
-        <b>`chmod 644`</b> para conceder permissões de leitura e escrita ao
-        proprietário e apenas permissões de leitura aos outros.
-      </p>
+### Excluir apenas um item dentro da collection
 
-      ## LINUX VIM ### Entrar no Modo Inserção, EDIÇÃO ```Copiar i ``` ###
-      Salvar ```Copiar Esc :w Enter ``` ### Sair ```Copiar Esc :q Enter ``` ###
-      Salvar e Sair ```Copiar Esc :wq Enter ``` ### Sair sem Salvar ```Copiar
-      Esc :q! Enter ``` ### Dicas > <b>Navegação:</b> No modo Normal, use as
-      teclas de seta ou `h`, `j`, `k`, `l` para mover o cursor. >
-      <b>Desfazer:</b> No modo Normal, pressione `u` para desfazer a última
-      ação. > <b>Copiar e Colar:</b> No modo Normal, para copiar e colar, use
-      `yy` para copiar uma linha e `p` para colar. > <b>Busca:</b> No modo
-      Normal, use `/` seguido do termo de busca e `Enter` para encontrar texto
-      no arquivo.
-    </div>
+```Copiar
+use NomeDoBanco
+db.NomeDaCollection.deleteOne({campo: valor})
+```
 
-    <script>
-      function openTab(evt, tabName) {
-        var i, tabcontent, tablinks
-        tabcontent = document.getElementsByClassName('tabcontent')
-        for (i = 0; i < tabcontent.length; i++) {
-          tabcontent[i].style.display = 'none'
-        }
-        tablinks = document.getElementsByClassName('tablinks')
-        for (i = 0; i < tablinks.length; i++) {
-          tablinks[i].className = tablinks[i].className.replace(' active', '')
-        }
-        document.getElementById(tabName).style.display = 'block'
-        evt.currentTarget.className += ' active'
-      }
-    </script>
-  </body>
-</html>
+### Deletar Collection
+
+```Copiar
+mongo
+use NomeDoBanco
+db.NomeDaCollection.drop()
+```
+
+### Deletar Database
+
+```Copiar
+mongo
+use NomeDoBanco
+db.dropDatabase()
+```
+---
+# Operações Básicas no PostgreSQL
+
+## Acessar banco
+
+```
+sudo -u postgres psql
+```
+
+## Listar Database
+
+```
+\l
+```
+
+## Limpar console
+
+```
+Pressione Ctrl + L.
+```
+
+## Criar um Banco de Dados
+
+```sql
+CREATE DATABASE nome_do_banco;
+```
+
+## Conectar-se a um Banco de Dados
+
+```sql
+\c nome_do_banco;
+```
+
+## Criar uma Tabela
+
+```sql
+CREATE TABLE nome_da_tabela (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(100),
+    idade INT
+);
+```
+
+## Inserir Dados em uma Tabela
+
+```sql
+INSERT INTO nome_da_tabela (nome, idade) VALUES ('John Doe', 25);
+```
+
+## Buscar Todos os Registros de uma Tabela
+
+```sql
+SELECT * FROM nome_da_tabela;
+```
+
+## Buscar Registros com Condição
+
+```sql
+SELECT * FROM nome_da_tabela WHERE idade > 21;
+```
+
+## Atualizar Dados em uma Tabela
+
+```sql
+UPDATE nome_da_tabela SET idade = 30 WHERE nome = 'John Doe';
+```
+
+## Apagar Dados de uma Tabela
+
+```sql
+DELETE FROM nome_da_tabela WHERE nome = 'John Doe';
+```
+
+## Apagar uma Tabela
+
+```sql
+DROP TABLE nome_da_tabela;
+```
+
+## Apagar um Banco de Dados
+
+```sql
+DROP DATABASE nome_do_banco;
+```
+
+Estas são operações básicas e é importante entender o impacto de cada uma delas antes de executá-las em um ambiente de produção. Lembre-se sempre de fazer backups adequados antes de realizar operações que possam causar perda de dados.
+
+Caso tenha mais dúvidas ou precise de informações adicionais, sinta-se à vontade para perguntar!
+
+
+---
+
+## LINUX
+
+### Listar diretorios
+
+```Copiar
+ls
+```
+
+### Criar pasta
+
+```Copiar
+mkdir NomeDaPasta
+```
+
+### Recortar itens de uma pasta e colar em outra
+
+```Copiar
+mv Origem/* Destino/
+```
+
+### Desbloquear arquivos
+
+```
+chmod -777 NomeDoArquivo
+```
+
+<p>A permissão 777 concede permissões de leitura, gravação e execução para todos (proprietário, grupo e outros), o que pode ser extremamente arriscado, especialmente em ambientes de produção.</p>
+
+```
+chmod 644 NomeDoArquivo
+```
+
+<p>
+Sempre é recomendável entender as implicações de segurança ao conceder permissões e garantir que você está concedendo apenas as permissões necessárias para usuários, grupos e outros.
+</p>
+
+```Copiar
+chmod +w NomeDoArquivo
+```
+
+<p>
+Se você ainda precisa usar a notação octal, sugeriria algo como <b>`chmod 644`</b> para conceder permissões de leitura e escrita ao proprietário e apenas permissões de leitura aos outros.
+</p>
+
+## LINUX VIM
+
+### Entrar no Modo Inserção, EDIÇÃO
+
+```Copiar
+i
+```
+
+### Salvar
+
+```Copiar
+Esc
+:w
+Enter
+```
+
+### Sair
+
+```Copiar
+Esc
+:q
+Enter
+```
+
+### Salvar e Sair
+
+```Copiar
+Esc
+:wq
+Enter
+```
+
+### Sair sem Salvar
+
+```Copiar
+Esc
+:q!
+Enter
+```
+
+### Dicas
+
+> <b>Navegação:</b> No modo Normal, use as teclas de seta ou `h`, `j`, `k`, `l` para mover o cursor.
+
+> <b>Desfazer:</b> No modo Normal, pressione `u` para desfazer a última ação.
+
+> <b>Copiar e Colar:</b> No modo Normal, para copiar e colar, use `yy` para copiar uma linha e `p` para colar.
+
+> <b>Busca:</b> No modo Normal, use `/` seguido do termo de busca e `Enter` para encontrar texto no arquivo.
+
 
 
 
