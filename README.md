@@ -133,6 +133,97 @@ mongo
 use NomeDoBanco
 db.dropDatabase()
 ```
+---
+# Operações Básicas no PostgreSQL
+
+## Acessar banco
+
+```
+sudo -u postgres psql
+```
+
+## Listar Database
+
+```
+\l
+```
+
+## Limpar console
+
+```
+Pressione Ctrl + L.
+```
+
+## Criar um Banco de Dados
+
+```sql
+CREATE DATABASE nome_do_banco;
+```
+
+## Conectar-se a um Banco de Dados
+
+```sql
+\c nome_do_banco;
+```
+
+## Criar uma Tabela
+
+```sql
+CREATE TABLE nome_da_tabela (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(100),
+    idade INT
+);
+```
+
+## Inserir Dados em uma Tabela
+
+```sql
+INSERT INTO nome_da_tabela (nome, idade) VALUES ('John Doe', 25);
+```
+
+## Buscar Todos os Registros de uma Tabela
+
+```sql
+SELECT * FROM nome_da_tabela;
+```
+
+## Buscar Registros com Condição
+
+```sql
+SELECT * FROM nome_da_tabela WHERE idade > 21;
+```
+
+## Atualizar Dados em uma Tabela
+
+```sql
+UPDATE nome_da_tabela SET idade = 30 WHERE nome = 'John Doe';
+```
+
+## Apagar Dados de uma Tabela
+
+```sql
+DELETE FROM nome_da_tabela WHERE nome = 'John Doe';
+```
+
+## Apagar uma Tabela
+
+```sql
+DROP TABLE nome_da_tabela;
+```
+
+## Apagar um Banco de Dados
+
+```sql
+DROP DATABASE nome_do_banco;
+```
+
+Estas são operações básicas e é importante entender o impacto de cada uma delas antes de executá-las em um ambiente de produção. Lembre-se sempre de fazer backups adequados antes de realizar operações que possam causar perda de dados.
+
+Caso tenha mais dúvidas ou precise de informações adicionais, sinta-se à vontade para perguntar!
+
+
+---
 
 ## LINUX
 
@@ -227,6 +318,9 @@ Enter
 > <b>Copiar e Colar:</b> No modo Normal, para copiar e colar, use `yy` para copiar uma linha e `p` para colar.
 
 > <b>Busca:</b> No modo Normal, use `/` seguido do termo de busca e `Enter` para encontrar texto no arquivo.
+
+
+
 
  <!--
 # Portfólio em Desenvolvimento
