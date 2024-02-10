@@ -359,7 +359,7 @@ Busca as últimas alterações do repositório remoto e as integra com sua branc
 git pull
 ```
 
-# comandos de branch
+### comandos de branch
 
 Lista todas as branches existentes no seu repositório.
 
