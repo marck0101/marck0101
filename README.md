@@ -65,18 +65,38 @@ Portfolio Google Ads: R$ 400K+ investido em 17 meses, 5 contas simultâneas.
 
 ## Projetos em Destaque
 
-### Dashboard de Marketing Integrado
-Solução customizada para cliente do segmento de saúde animal conectando APIs do Meta Ads, Google Ads e LinkedIn em um único painel — construído com React + PostgreSQL + Lovable como acelerador de front-end. Eliminou a necessidade de ferramentas pagas de BI e entregou o projeto em tempo reduzido.
+### Dashboard de Marketing Integrado — Saúde Animal
+Solução customizada conectando APIs do Meta Ads, Google Ads e LinkedIn em um único painel para cliente do segmento de saúde animal. Construído com React + PostgreSQL, eliminou a necessidade de ferramentas pagas de BI e entregou visibilidade unificada de performance em tempo reduzido.
+
+---
+
+### Site Institucional + Blog — Veterinária Tamires
+Site e blog institucional para médica veterinária, com foco em conteúdo educativo e geração de autoridade na área. Hospedado via InfinityFree com suporte a PHP e MySQL.
+
+[![Ver site](https://img.shields.io/badge/Ver_site-4A90D9?style=for-the-badge&logo=wordpress&logoColor=white)](https://veterinariatamires.lovestoblog.com)
+
+---
+
+### Site Institucional — Tais L. Müller Arquiteta
+Site em desenvolvimento para escritório de arquitetura contemporânea com foco em neuroarquitetura e bem-estar. Projeto inclui portfólio de obras, etapas do processo e formulário de contato. GTM implementado. Deploy na Netlify.
+
+[![Ver site](https://img.shields.io/badge/Ver_site-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://taismuller-arquiteta.netlify.app)
+
+---
 
 ### Sistema de Chamados
 Plataforma de abertura e acompanhamento de chamados com autenticação via Firebase, controle de sessão, isolamento de dados por usuário e CRUD completo.
 
 [![Ver projeto](https://img.shields.io/badge/Ver_projeto-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://called-system.netlify.app)
 
+---
+
 ### Lista de Tarefas com Autenticação
 Gerenciador de tarefas com login/logout e persistência via Firebase Firestore. Dados isolados por usuário.
 
 [![Ver projeto](https://img.shields.io/badge/Ver_projeto-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://atual-lista-tarefas.netlify.app)
+
+---
 
 ### Next Movies
 Listagem de filmes em cartaz com consumo de API REST externa. Hooks avançados do React em produção.
