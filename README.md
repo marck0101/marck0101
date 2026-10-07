@@ -1,16 +1,16 @@
 # Marcos Henrique Corrêa
 
-**Gestor de Mídia Paga · Growth Marketing · Full Stack Developer**
+**Gestor de Tráfego · Programador Full Stack · Growth Marketing**
 
-Brasil · Remoto · [marck.mhc@gmail.com](mailto:marck.mhc@gmail.com) · [LinkedIn](https://www.linkedin.com/in/marcos-henrique-corrêa-618392209/) · [marck0101.com.br](https://marck0101.com.br)
+Santo Cristo - RS · Remoto · [marck.mhc@gmail.com](mailto:marck.mhc@gmail.com) · [LinkedIn](https://www.linkedin.com/in/marcos-henrique-corrêa-618392209/) · [Portfólio](https://marck0101.com.br/) · [Gestor de Tráfego](https://marck0101.com.br/gestor-de-trafego) · [Programador](https://marck0101.com.br/programador) · [Blog](https://blog.marck0101.com.br/blog)
 
 ---
 
 ## Sobre
 
-Gestor de Tráfego Pago com mais de 3 anos de experiência em Google Ads, Meta Ads e LinkedIn Ads, atuando em carteiras multisegmento — B2B enterprise, e-commerce, hotelaria, turismo e crédito rural.
+Sou Marcos Henrique Corrêa, gestor de tráfego pago com mais de 3 anos de experiência em Google Ads, Meta Ads e LinkedIn Ads, atuando em carteiras multisegmento — B2B enterprise, e-commerce, hotelaria, turismo e crédito rural.
 
-Formado em Sistemas para Internet, com background full stack que vai além do que a maioria dos gestores de tráfego consegue entregar: implemento trackings avançados (GTM, CAPI, Stape, Data Layer), integro APIs de plataformas e construo dashboards sob medida no Looker Studio e com React + PostgreSQL — eliminando dependência de ferramentas pagas de BI e de desenvolvedores externos.
+Acadêmico em Sistemas para Internet (EAD Unisinos) e programador full stack, com um background técnico que vai além do que a maioria dos gestores de tráfego consegue entregar: implemento trackings avançados (GTM, CAPI, Stape, Data Layer), integro APIs de plataformas e construo dashboards sob medida no Looker Studio e com React + PostgreSQL — eliminando dependência de ferramentas pagas de BI e de desenvolvedores externos.
 
 Certificado em todas as verticais do Google Ads e Google Analytics. Domínio de estratégias orientadas por IA: Performance Max, Smart Bidding e Demand Gen.
 
